@@ -121,35 +121,30 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                      <Component id="jBSiete" max="32767" attributes="0"/>
-                      <Component id="jBCuatro" max="32767" attributes="0"/>
-                      <Component id="jBUno" max="32767" attributes="0"/>
+                      <Component id="jBSiete" pref="60" max="32767" attributes="0"/>
+                      <Component id="jBCuatro" pref="60" max="32767" attributes="0"/>
                       <Component id="jBBorrar" pref="60" max="32767" attributes="0"/>
+                      <Component id="jBUno" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jBDos" pref="55" max="32767" attributes="0"/>
                           <Component id="jBCinco" max="32767" attributes="0"/>
                           <Component id="jBOcho" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jBDos" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="jBCero" min="-2" pref="55" max="-2" attributes="0"/>
+                      <Component id="jBCero" min="-2" pref="60" max="-2" attributes="0"/>
                   </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                          <Component id="jBTres" min="-2" pref="74" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" attributes="0">
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jBAceptar" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jBNueve" alignment="1" min="-2" pref="74" max="-2" attributes="0"/>
-                              <Component id="jBSeis" alignment="1" min="-2" pref="74" max="-2" attributes="0"/>
-                          </Group>
+                      <Component id="jBTres" alignment="1" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                          <Component id="jBAceptar" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                          <Component id="jBNueve" alignment="1" min="-2" pref="60" max="-2" attributes="0"/>
+                          <Component id="jBSeis" alignment="1" min="-2" pref="60" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="18" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -268,7 +263,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="jBAceptar">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Aceptar"/>
+            <Property name="label" type="java.lang.String" value="OK"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBAceptarActionPerformed"/>
