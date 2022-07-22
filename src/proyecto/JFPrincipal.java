@@ -124,8 +124,8 @@ public class JFPrincipal extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel1.setText("BIENVENIDO A TUMBANK");
 
-        jLabel2.setFont(new java.awt.Font("Rage Italic", 0, 13)); // NOI18N
-        jLabel2.setText("Te tumbamos");
+        jLabel2.setFont(new java.awt.Font("Dialog", 0, 13)); // NOI18N
+        jLabel2.setText("Sistema Bancario");
 
         jBIngresarTarjeta.setText("INGRESAR TARJETA");
         jBIngresarTarjeta.addActionListener(new java.awt.event.ActionListener() {
@@ -421,7 +421,7 @@ public class JFPrincipal extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(22, 22, 22)))))
-                .addContainerGap(27, Short.MAX_VALUE))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
 
         pack();

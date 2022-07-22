@@ -81,7 +81,7 @@
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="27" max="32767" attributes="0"/>
+              <EmptySpace pref="28" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -98,9 +98,9 @@
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Rage Italic" size="13" style="0"/>
+          <Font name="Dialog" size="13" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Te tumbamos"/>
+        <Property name="text" type="java.lang.String" value="Sistema Bancario"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jTFNoTarjeta">
